@@ -12,7 +12,7 @@ body{
 }
 
 .app {
-  padding: 2rem 1rem;
+  padding: 2rem;
 }
 
 h1 {
@@ -26,7 +26,7 @@ input {
   outline: none;
   background: #eee;
   width: 100%;
-  max-width: 280px;
+  max-width: 320px;
   padding: 0.5rem 1rem;
   border-radius: 10px;
   margin-right: 1rem;
@@ -38,6 +38,18 @@ button, a {
   appearance: none;
   outline: none;
   background: none;
-  color: #2bcb2b
+  color: #2bcb2b;
+  font-size: 18px;
+  text-decoration: none;
+  line-height: 1;
+  cursor: pointer;
+}
+
+
+img {
+  display: block;
+  width: 480px;
+  height: 480px;
+  margin: 2rem  auto;
 
 }
